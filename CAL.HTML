@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="box">
+    <div class="display"><input type="text" readonly size="18" id="d"/></div>
+    <div class="keys">
+        <p><input type="button" class='button gray' value='mrc' onclick='c("Created.....")'/>
+        <input type="button" class='button gray' value='m-' onclick='c(".......by.....")'/>
+        <input type="button" class='button gray' value='m+' onclick='c(".......Hanumanth")'/>
+        <input type="button" class='button gray' value="/" onclick='c("......./")'/>
+
+        </p>
+        <p><input type="button" class=" button black" value="7" onclick='c("7")'>
+        <input type="button" class=" button black" value="8" onclick='c("9")'>
+        <input type="button" class=" button black" value="9" onclick='c("8")'>
+        <input type="button" class=" button pink" value="*" onclick='c("......*")'/>
+        </p>
+        <p><input type="button" class=" button black" value="4" onclick='c("4")'>
+            <input type="button" class=" button black" value="5" onclick='c("5")'>
+            <input type="button" class=" button black" value="6" onclick='c("6")'>
+            <input type="button" class=" button pink" value="-" onclick='c("......-")'/>
+            </p>
+            <p><input type="button" class=" button black" value="1" onclick='c("1")'>
+                <input type="button" class=" button black" value="2" onclick='c("2")'>
+                <input type="button" class=" button black" value="3" onclick='c("3")'>
+                <input type="button" class=" button pink" value="+" onclick='c("......+")'/>
+                </p>
+                <p><input type="button" class=" button black" value="0" onclick='c("0")'>
+                    <input type="button" class=" button black" value="." onclick='c(".")'>
+                    <input type="button" class=" button black" value="c" onclick='c("")'>
+                    <input type="button" class=" button orange" value="=" onclick='e()'/>
+                    </p>
+    </div>
+</div>
+</body>
+</html>
